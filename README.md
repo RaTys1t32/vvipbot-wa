@@ -43,33 +43,33 @@ Custom di sini [SETTING](https://github.com/AgusAliansyah/vvipbot-wa/blob/master
 
 Jika pertama kali membuka termux lakukan perintah berikut :
 ```bash
-> pkg install git
-> pkg install wget
-> pkg install ffmpeg
-> pkg install nodejs
-> pkg install npm
+pkg install git
+pkg install wget
+pkg install ffmpeg
+pkg install nodejs
+pkg install npm
 ```
 Lalu clone repo
 ```bash
-> git clone https://github.com/AgusAliansyah/vvipbot-wa
-> cd vvipbot-wa
+git clone https://github.com/AgusAliansyah/vvipbot-wa
+cd vvipbot-wa
 ```
 Lanjutkan dengan
 ```bash
-> bash install.sh
+bash install.sh
 ```
 Jika mengalami error, lakukan perintah manual berikut :
 ```bash
-> pkg install tesseract
-> npm i -g cwebp
-> npm i -g ytdl
-> npm i node-tesseract-ocr
-> npm i
-> npm i got
+pkg install tesseract
+npm i -g cwebp
+npm i -g ytdl
+npm i node-tesseract-ocr
+npm i
+npm i got
 ```
 Jalankan bot
 ```bash
-> node index.js
+node index.js
 ```
 Terakhir scan kode QR
 
